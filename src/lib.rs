@@ -5,7 +5,6 @@
 /// # Example
 ///
 /// ```
-/// // This won't appear in the generated docs
 /// use dbgprint::dbgprintln;
 /// dbgprintln!("Hello, {}!", "world"); // prints "Hello, world!" in debug mode
 /// ```
@@ -25,7 +24,6 @@ macro_rules! dbgprintln {
 /// # Example
 ///
 /// ```
-/// // This won't appear in the generated docs
 /// use dbgprint::dbgprint;
 /// dbgprint!("Hello, {}!", "world"); // prints "Hello, world!" in debug mode
 /// ```
@@ -45,7 +43,6 @@ macro_rules! dbgprint {
 /// # Example
 ///
 /// ```
-/// // This won't appear in the generated docs
 /// use dbgprint::dbgeprintln;
 /// dbgeprintln!("Error: {}", "something went wrong"); // prints "Error: something went wrong" to stderr in debug mode
 /// ```
@@ -65,7 +62,6 @@ macro_rules! dbgeprintln {
 /// # Example
 ///
 /// ```
-/// // This won't appear in the generated docs
 /// use dbgprint::dbgeprint;
 /// dbgeprint!("Error: {}", "something went wrong"); // prints "Error: something went wrong" to stderr in debug mode
 /// ```
