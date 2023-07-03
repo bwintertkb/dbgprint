@@ -1,0 +1,13 @@
+[package]
+name = "dbgprint"
+version = "0.1.0"
+edition = "2021"
+description = "A set of macros that output the STDOUT and STDERR of the program only in debug mode."
+documentation = "https://docs.rs/dbgprint/0.1.0/dbgprint/"
+include = ["Cargo.toml", "src/**/*.rs", "README.md", "LICENSE-APACHE", "LICENSE-MIT"]
+keywords = ["stdout", "stderr", "print", "debug", "macros"]
+license = "MIT/Apache-2.0"
+readme = "README.md"
+
+[dependencies]
+
